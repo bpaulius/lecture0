@@ -7,11 +7,32 @@
                 color:rgb(161, 78, 52);
                 text-align: center;
             }
+            
+            #one {
+                font-size: larger;
+                font-style: italic;
+            }
+
+            input[type=text] {
+                background-color: rgb(221, 218, 213);
+            }
+
+            button {
+                
+            }
+
+            button:hover {
+                background-color: grey;
+            }
         </style>
     </head>
     <body>
+        <input name="name" type="text" placeholder="User Name">
+        <input name="password" type="password" placeholder="Password">
+        <input name="age" type="number" placeholder="age">
+        <button type="button">log in</button>
         <h1>Welcome to my webpage!</h1>
-        <p>Hello, world! This is a paragraph of text.</p>
+        <p id="one">Hello, world! This is a paragraph of text.</p>
         <p>This is another paragraph!</p>
         <p>And another one!</p>
         <img src="time.jpg" width="30%" >
